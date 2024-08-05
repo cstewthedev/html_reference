@@ -1,11 +1,17 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   font-weight: bold;
   text-align: center;
+  background-color: darkslategray;
 }
 
 h2 {
   font-weight: bold;
   text-align: center;
+  background-color: darkslategray;
 }
 
 table, th, td {
@@ -16,4 +22,15 @@ table, th, td {
 .table {
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(58, 57, 57);
+  color: white;
+  border-color: red;
+}
+
+th, td {
+  border-color: rgb(rgb(138, 41, 41), rgb(4, 65, 4), rgb(116, 116, 238));
+}
+
+body {
+  background-color: dimgray;
 }
